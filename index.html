@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!--
+    1.A web page that allow user to manage their to-do lists.
+    2.features: - Add new tasks
+                - Mask tasks as completed
+                - Edit existing tasks
+                - Delete task.  -->
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="to-do-list.png" alt="to do image"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task..">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked"></li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
